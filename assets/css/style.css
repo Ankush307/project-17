@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+section {
+    height:     80vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+ flex-grow: grow;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spce-between {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 27px;
+}
+
+.d-flex {
+    display: flex;
+    gap: 31px;
+}
+
+.png {
+    background-image: url(/assets/image/Image.png);
+    background-size: cover;
+    background-color: rgb(40, 40, 137);
+}
+
+.product {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: white;
+}
+
+li {
+    color: #FFFFFF;
+}
+
+h4 {
+    color: #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.25px;
+    letter-spacing: -0.2926828861236572px;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.box {
+    margin-top: 86px;
+    align-content: center;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: none;
+
+}
+
+.but-1 {
+    width: 100px;
+    height: 40.1px;
+    border-radius: 100px;
+    background: #25DAC5;
+border: none;
+color: #FFFFFF;
+}
+.login{
+color: #FFFFFF;
+}
