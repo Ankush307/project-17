@@ -9,12 +9,12 @@
 }
 
 section {
-    height:     80vh;
+    height: 80vh;
     align-items: center;
     align-content: center;
     justify-content: center;
     justify-items: center;
- flex-grow: grow;
+    flex-grow: grow;
 }
 
 .container {
@@ -28,18 +28,23 @@ section {
 .spce-between {
     justify-content: space-between;
     display: flex;
-    padding-top: 27px;
+    padding-top: 31px;
 }
 
 .d-flex {
     display: flex;
     gap: 31px;
 }
+.align-item-center{
+    align-items: center;
+}
 
 .png {
     background-image: url(/assets/image/Image.png);
     background-size: cover;
     background-color: rgb(40, 40, 137);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .product {
@@ -101,9 +106,10 @@ p {
     height: 40.1px;
     border-radius: 100px;
     background: #25DAC5;
-border: none;
-color: #FFFFFF;
+    border: none;
+    color: #FFFFFF;
 }
-.login{
-color: #FFFFFF;
+
+.login {
+    color: #FFFFFF;
 }
